@@ -61,7 +61,7 @@ transform = transforms.Compose([
     transforms.ToTensor(),
 ])
 
-path1="dataset\\simulation\\"
+path1="dataset\\test_file\\"
 
 for j in range(0,1):
     for k in range(0, 15):
