@@ -9,3 +9,4 @@ TRUS(Transformer-based Reconstruction for Ultr-fast SOFI imaging) is a deep lear
 - scikit-image 0.21.0
 - pytorch-gpu 1.9.1
 - GPU GeForce RTX 2080 Ti
+# Usage
