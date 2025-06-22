@@ -9,4 +9,16 @@ TRUS(Transformer-based Reconstruction for Ultr-fast SOFI imaging) is a deep lear
 - scikit-image 0.21.0
 - pytorch-gpu 1.9.1
 - GPU GeForce RTX 2080 Ti
+# File Description
+`./data` is the default path for training data
+`./data/wf` The augmented training widefield image will be saved here
+`./data/20f` The augmented training sofi image (reconstructed from 20 frames) will be saved here
+`./data/gt` The augmented training sofi image (reconstrcuted from 3000frames) will be saved here
+`./weights` place pre-trained TRUS models here for testing
+`./models` place network architecture and dataloader
 # Usage
+## Test 
+Files named test.py is programmed for the inference of few-shot SOFI and widefield image pairs. 
+
+## Training
+The TRUS can be trained by the file <train.py> with datasets containing widefield and SOFI image pairs. The path of dataset should be changed according to the actual configuration.
