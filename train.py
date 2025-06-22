@@ -34,7 +34,7 @@ print('设备名称： ', device)
 print('查看cuda版本： ', torch.version.cuda)
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--data_folder', default='dataset/10f/', type=str)
+parser.add_argument('--data_folder', default='dataset/', type=str)
 parser.add_argument('--load_weight', default=False, type=bool)
 args = parser.parse_args()
 
