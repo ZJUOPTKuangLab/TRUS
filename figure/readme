@@ -1,1 +1,7 @@
-
+[psnr_analysis.m] Analyses PSNR and GMSD on SOFI, SACD, and TRUS data.
+[SIM_640.tif] HIFI-SIM image after image registration
+[data/SACDdemo.tif] SACD result reconstructed from 20 frames
+[data/SACDdemo_3000.tif]  SACD result reconstructed from 3000 frames
+[data/SOFI.tif] second-order SOFI reconstructed from 3000 frames
+[data/SOFI_4.tif] fourth-order SOFI reconstructed from 3000 frames
+[data/TRUS.tif] TRUS reconstructed from 20 frames and an additional widefield image
