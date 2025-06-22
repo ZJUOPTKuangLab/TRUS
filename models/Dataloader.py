@@ -79,7 +79,7 @@ class Dataset(data.Dataset):
 
     def __getitem__(self, index):
         path = self.paths[index]
-        data_path='10f'
+        data_path='20f'
         wf_path='wf'
         gt_path='gt'
 
