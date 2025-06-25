@@ -18,7 +18,7 @@ TRUS(Transformer-based Reconstruction for Ultr-fast SOFI imaging) is a deep lear
 `./models` place network architecture and dataloader
 # Usage
 ## Test 
-The file test.py is designed for performing inference on few-shot SOFI and widefield image pairs. The variable wf_uafpath specifies the path to the widefield image, while uaf_path specifies the path to the SOFI image.
+The <file test.py> is designed for performing inference on few-shot SOFI and widefield image pairs. The variable *wf_uafpath* specifies the path to the widefield image, while *uaf_path* specifies the path to the SOFI image.
 
 ## Training
 The TRUS can be trained by the file <train.py> with datasets containing widefield and SOFI image pairs. The path of dataset should be changed according to the actual configuration.
